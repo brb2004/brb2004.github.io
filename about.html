@@ -13,8 +13,8 @@
   <ul class="nav-links">
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html" class="active">About</a></li>
-    <li><a href="projects.html">Projects</a></li>
-     <li><a href="programming.html">Programming Projects</a></li>
+    <li><a href="programming.html">Projects</a></li>
+    <li><a href="projects.html" class="hide-mobile">BCOM</a></li>
     <li><a href="resume.html" class="hide-mobile">Resume</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
@@ -31,10 +31,6 @@
     <div class="about-grid">
 
       <div class="about-photo-block fade-up fade-up-2">
-        <!--
-          REPLACE with your actual photo:
-          <img src="about-photo.jpg" alt="Your Name" style="width:100%;border-radius:4px;border:1px solid var(--border);">
-        -->
         <div class="about-photo">
           <div style="font-size:2.5rem;opacity:0.35;">🖼</div>
           <strong>Your Photo Here</strong>
@@ -68,18 +64,12 @@
 
         <h3 style="margin-top:0;">My Story</h3>
         <p>
-          
-        </p>
-        <p>
-          
+          <!-- Add your story here -->
         </p>
 
         <h3>What Drives Me</h3>
         <p>
-
-        </p>
-        <p>
-
+          <!-- Add what drives you here -->
         </p>
 
         <h3>Hobbies &amp; Interests</h3>
@@ -88,7 +78,6 @@
         </p>
 
         <div class="tag-list">
-          <!-- Replace these tags with your actual hobbies/interests -->
           <span class="tag">Hiking</span>
           <span class="tag">Video Games</span>
           <span class="tag">Programming</span>
@@ -96,7 +85,17 @@
 
       </div>
     </div>
-<!-- Chat Widget -->
+
+  </div>
+
+  <footer>
+    <p>© 2025 Brayden Benard · Business Communication Portfolio</p>
+    <p>Built for BCOM class · <a href="contact.html" style="color:var(--accent);text-decoration:none;">Contact me</a></p>
+  </footer>
+
+</div>
+
+<!-- Chat Widget — outside all other divs -->
 <div class="chat-widget" id="chatWidget">
   <div class="chat-panel" id="chatPanel">
     <div class="chat-panel-header">
@@ -108,11 +107,11 @@
     </div>
     <div class="chat-messages" id="chatMessages">
       <div class="chat-bubble bot">
-        Hi! I&#39;m an AI assistant that knows all about Your Name&#39;s background, skills, and experience. What would you like to know?
+        Hi! I'm an AI assistant that knows all about Brayden's background, skills, and experience. What would you like to know?
       </div>
       <div class="chat-coming-soon">
         <strong>Coming Soon</strong>
-        Full RAG chatbot launching soon &#8212; connect your resume &amp; project docs and I&#39;ll answer any question about your candidacy.
+        Full RAG chatbot launching soon — connect your resume &amp; project docs and I'll answer any question about your candidacy.
       </div>
     </div>
     <div class="chat-input-row">
@@ -140,6 +139,6 @@
     });
   })();
 </script>
-</div>
+
 </body>
 </html>
