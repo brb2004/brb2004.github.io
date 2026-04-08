@@ -686,3 +686,28 @@ footer p {
 @media (max-width: 560px) {
   .nav-links .hide-mobile { display: none; }
 }
+.chat-widget {
+  position: fixed !important;
+  bottom: 28px !important;
+  right: 28px !important;
+  z-index: 9999 !important;
+}
+
+.chat-fab {
+  width: 58px !important;
+  height: 58px !important;
+  border-radius: 50% !important;
+  background: #1A1814 !important;
+  border: none !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.chat-fab svg {
+  fill: #FAF8F3 !important;
+  width: 26px !important;
+  height: 26px !important;
+  position: absolute !important;
+}
