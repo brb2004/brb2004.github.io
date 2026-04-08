@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume — Your Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="index.html">Your Name</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html" class="hide-mobile">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="resume.html" class="active">Resume</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="#" class="nav-chat-badge">AI Chat — soon</a></li>
+  </ul>
+</nav>
+
+<div class="page-content">
+  <div class="inner-page">
+
+    <div class="page-header fade-up fade-up-1">
+      <p class="section-label">Credentials</p>
+      <h1 class="section-title">My Resume</h1>
+      <p style="color:var(--ink-light);max-width:560px;margin-top:0.75rem;">
+        Updated and formatted to JSOM standards. Download a copy or view it directly below.
+      </p>
+    </div>
+
+    <div class="resume-embed-area fade-up fade-up-2">
+      <div class="resume-toolbar">
+        <span>📄 Your_Name_Resume.pdf</span>
+        <a href="resume.pdf" download
+           style="font-size:0.8rem;color:var(--accent);text-decoration:none;font-weight:500;
+                  padding:6px 14px;border:1px solid #E8BFA8;border-radius:4px;
+                  background:var(--accent-light);transition:background 0.2s;"
+           onmouseover="this.style.background='#EDD5C8'"
+           onmouseout="this.style.background='var(--accent-light)'">
+          ↓ Download PDF
+        </a>
+      </div>
+
+      <!--
+        REPLACE the placeholder below with your actual PDF embed:
+
+        <iframe src="resume.pdf"
+          width="100%"
+          height="700px"
+          style="border:none;"
+          title="Resume PDF">
+          <p>Your browser doesn't support PDF embeds.
+             <a href="resume.pdf">Download the PDF</a> instead.</p>
+        </iframe>
+
+        Make sure your resume PDF file is named "resume.pdf" and placed
+        in the same folder as this HTML file.
+      -->
+
+      <div class="resume-iframe-placeholder">
+        <div class="placeholder-icon">📄</div>
+        <p style="font-weight:500;color:var(--ink-light);">Your Resume PDF Goes Here</p>
+        <p style="font-size:0.85rem;color:var(--ink-muted);max-width:360px;text-align:center;">
+          Save your resume as <code style="background:var(--border-light);padding:2px 6px;border-radius:3px;">resume.pdf</code>
+          in this folder, then replace this block with the &lt;iframe&gt; shown in the comment above.
+        </p>
+      </div>
+    </div>
+
+    <!-- Highlights section -->
+    <div style="margin-top:3rem;" class="fade-up fade-up-3">
+      <p class="section-label" style="margin-bottom:1.5rem;">At a Glance</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;">
+
+        <div style="background:var(--warm-white);border:1px solid var(--border);border-radius:6px;padding:1.25rem;">
+          <p style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink-muted);margin-bottom:0.4rem;">Education</p>
+          <p style="font-weight:500;color:var(--ink);">Your University</p>
+          <p style="font-size:0.875rem;color:var(--ink-light);">B.S. Your Major</p>
+          <p style="font-size:0.8rem;color:var(--ink-muted);">Expected May 20XX</p>
+        </div>
+
+        <div style="background:var(--warm-white);border:1px solid var(--border);border-radius:6px;padding:1.25rem;">
+          <p style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink-muted);margin-bottom:0.4rem;">Current Role</p>
+          <p style="font-weight:500;color:var(--ink);">Intern</p>
+          <p style="font-size:0.875rem;color:var(--ink-light);">Company Name</p>
+          <p style="font-size:0.8rem;color:var(--ink-muted);">Start Date – Present</p>
+        </div>
+
+        <div style="background:var(--warm-white);border:1px solid var(--border);border-radius:6px;padding:1.25rem;">
+          <p style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink-muted);margin-bottom:0.4rem;">GPA</p>
+          <p style="font-weight:500;color:var(--ink);font-size:1.4rem;font-family:var(--serif);">3.X</p>
+          <p style="font-size:0.8rem;color:var(--ink-muted);">(if you wish to include)</p>
+        </div>
+
+        <div style="background:var(--warm-white);border:1px solid var(--border);border-radius:6px;padding:1.25rem;">
+          <p style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink-muted);margin-bottom:0.4rem;">Key Skills</p>
+          <div class="tag-list" style="margin-top:0.25rem;">
+            <span class="tag" style="font-size:0.72rem;">Skill 1</span>
+            <span class="tag" style="font-size:0.72rem;">Skill 2</span>
+            <span class="tag" style="font-size:0.72rem;">Skill 3</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Your Name · Business Communication Portfolio</p>
+    <p>Built for BCOM class · <a href="contact.html" style="color:var(--accent);text-decoration:none;">Contact me</a></p>
+  </footer>
+</div>
+</body>
+</html>
