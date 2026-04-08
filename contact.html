@@ -127,54 +127,5 @@
           </div>
         </div>
       </div>
-<!-- Chat Widget -->
-<div class="chat-widget" id="chatWidget">
-  <div class="chat-panel" id="chatPanel">
-    <div class="chat-panel-header">
-      <div class="chat-avatar">&#x1F916;</div>
-      <div class="chat-header-text">
-        <p>Ask me anything</p>
-        <p>Powered by your resume &amp; projects</p>
-      </div>
-    </div>
-    <div class="chat-messages" id="chatMessages">
-      <div class="chat-bubble bot">
-        Hi! I&#39;m an AI assistant that knows all about Your Name&#39;s background, skills, and experience. What would you like to know?
-      </div>
-      <div class="chat-coming-soon">
-        <strong>Coming Soon</strong>
-        Full RAG chatbot launching soon &#8212; connect your resume &amp; project docs and I&#39;ll answer any question about your candidacy.
-      </div>
-    </div>
-    <div class="chat-input-row">
-      <input class="chat-input" type="text" placeholder="Ask about skills, experience..." disabled>
-      <button class="chat-send" disabled>
-        <svg viewBox="0 0 24 24"><path d="M2 21l21-9L2 3v7l15 2-15 2v7z"/></svg>
-      </button>
-    </div>
-  </div>
-  <div class="chat-tooltip">Chat with my AI assistant</div>
-  <button class="chat-fab" id="chatFab" aria-label="Open AI chat assistant">
-    <svg class="icon-chat" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg>
-    <svg class="icon-close" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-  </button>
-</div>
-<script>
-  (function() {
-    var fab = document.getElementById('chatFab');
-    var panel = document.getElementById('chatPanel');
-    var widget = document.getElementById('chatWidget');
-    fab.addEventListener('click', function() {
-      panel.classList.toggle('open');
-      fab.classList.toggle('open');
-      widget.classList.toggle('widget-open');
-    });
-  })();
-</script>
-    </div>
-
-  </div>
-
-</div>
 </body>
 </html>
