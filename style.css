@@ -107,7 +107,7 @@ nav {
 /* ── Hero (Home) ── */
 .hero {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1.5fr 0.75fr;
   min-height: calc(100vh - var(--nav-height));
   align-items: center;
 }
